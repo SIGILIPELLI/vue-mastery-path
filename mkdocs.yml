@@ -1,0 +1,113 @@
+site_name: Vue.js Mastery Path
+site_description: A structured Vue.js 3 course from first component to production — Composition API, reactivity internals, Vue Router, Pinia, testing, SSR and Nuxt — with code verified against real builds.
+site_url: https://sigilipelli.github.io/vue-mastery-path/
+repo_url: https://github.com/sigilipelli/vue-mastery-path
+repo_name: vue-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Entry":
+      - Overview: level-1/index.md
+      - "01 · What Vue Is": level-1/01-what-vue-is.md
+      - "02 · create-vue, Vite & Project Structure": level-1/02-tooling-project-structure.md
+      - "03 · Template Syntax & Directives": level-1/03-template-syntax.md
+      - "04 · Reactivity: ref, reactive, computed": level-1/04-reactivity-ref-reactive-computed.md
+      - "05 · Watchers & Lifecycle Hooks": level-1/05-watchers-lifecycle.md
+      - "06 · Components: Props & Emits": level-1/06-props-emits.md
+      - "07 · Forms & v-model": level-1/07-forms-v-model.md
+      - "08 · Slots": level-1/08-slots.md
+      - "09 · Styling & Transitions": level-1/09-styling-transitions.md
+      - "10 · Project — A Habit Tracker": level-1/10-project-habit-tracker.md
+  - "Level 2 · Intermediate":
+      - Overview: level-2/index.md
+      - "01 · Composables": level-2/01-composables.md
+      - "02 · Provide & Inject": level-2/02-provide-inject.md
+      - "03 · Vue Router Basics": level-2/03-vue-router-basics.md
+      - "04 · Router in Depth: Guards, Meta, File Routes": level-2/04-router-in-depth.md
+      - "05 · Pinia Fundamentals": level-2/05-pinia-fundamentals.md
+      - "06 · Pinia in Depth": level-2/06-pinia-in-depth.md
+      - "07 · Async Data & API Calls": level-2/07-async-data.md
+      - "08 · Form Validation": level-2/08-form-validation.md
+      - "09 · TypeScript with Vue": level-2/09-typescript-with-vue.md
+      - "10 · Project — A Recipe Book": level-2/10-project-recipe-book.md
+  - "Level 3 · Advanced":
+      - Overview: level-3/index.md
+      - "01 · Reactivity in Depth": level-3/01-reactivity-in-depth.md
+      - "02 · The Rendering Mechanism & Render Functions": level-3/02-rendering-mechanism.md
+      - "03 · Custom Directives & Plugins": level-3/03-directives-plugins.md
+      - "04 · Teleport, KeepAlive, Transition & Suspense": level-3/04-built-in-components.md
+      - "05 · Async Components & Code Splitting": level-3/05-async-components-splitting.md
+      - "06 · Performance": level-3/06-performance.md
+      - "07 · Testing with Vitest & Vue Test Utils": level-3/07-testing.md
+      - "08 · Accessibility in Vue Apps": level-3/08-accessibility.md
+      - "09 · Error Handling & Security": level-3/09-errors-security.md
+      - "10 · Project — A Kanban Board": level-3/10-project-kanban.md
+  - "Level 4 · Master":
+      - Overview: level-4/index.md
+      - "01 · Server-Side Rendering from Scratch": level-4/01-ssr-from-scratch.md
+      - "02 · Nuxt Overview": level-4/02-nuxt-overview.md
+      - "03 · Vite & Production Builds": level-4/03-vite-production-builds.md
+      - "04 · Component Libraries & Design Systems": level-4/04-component-libraries.md
+      - "05 · Large-App Architecture": level-4/05-large-app-architecture.md
+      - "06 · Migrating from Vue 2 & Staying Current": level-4/06-migration-staying-current.md
+      - "07 · Internationalization": level-4/07-i18n.md
+      - "08 · Deployment": level-4/08-deployment.md
+      - "09 · Observability & Production Readiness": level-4/09-production-readiness.md
+      - "10 · Capstone — A Production Vue App": level-4/10-capstone.md
