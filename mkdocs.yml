@@ -1,6 +1,6 @@
 site_name: Vue.js Mastery Path
 site_description: A structured Vue.js 3 course from first component to production — Composition API, reactivity internals, Vue Router, Pinia, testing, SSR and Nuxt — with code verified against real builds.
-site_url: https://sigilipelli.github.io/vue-mastery-path/
+site_url: https://learnmasterypath.com/vue-mastery-path/
 repo_url: https://github.com/sigilipelli/vue-mastery-path
 repo_name: vue-mastery-path
 

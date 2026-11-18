@@ -643,7 +643,7 @@ zeros: the drag-and-drop test drops at `clientY: 0` and can only check that the 
 arrives *first* in the target column, not that mid-list positioning works. Real
 drag-and-drop gestures, animation smoothness and focus visibility need a real browser —
 exercise them by hand, or with Playwright
-([Playwright Mastery Path](https://sigilipelli.github.io/playwright-mastery-path/)), whose
+([Playwright Mastery Path](https://learnmasterypath.com/playwright-mastery-path/)), whose
 `dragTo()` performs real pointer events. We verified the build and the jsdom tests; we did
 not record a browser session for this page.
 

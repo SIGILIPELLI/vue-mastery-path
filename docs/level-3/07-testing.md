@@ -27,7 +27,7 @@ A practical split:
 
 Most tests should be in the first two rows: they're fast and precise. Keep a smaller set
 of end-to-end tests for critical paths (sign-in, checkout). The
-[Playwright Mastery Path](https://sigilipelli.github.io/playwright-mastery-path/) covers E2E
+[Playwright Mastery Path](https://learnmasterypath.com/playwright-mastery-path/) covers E2E
 in depth.
 
 ## The component under test

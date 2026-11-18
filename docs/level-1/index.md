@@ -40,10 +40,10 @@ through all ten modules:
 - **Node.js** 22.18+ or 24.12+ (the range `create-vue` declares). Check with `node -v`.
 - **JavaScript fundamentals**: modules, arrow functions, array methods (`map`, `filter`,
   `reduce`), destructuring, promises. If any of those are shaky, work through
-  [JavaScript Mastery Path](https://sigilipelli.github.io/javascript-mastery-path/) first.
+  [JavaScript Mastery Path](https://learnmasterypath.com/javascript-mastery-path/) first.
 - **Basic TypeScript** helps: this course uses `lang="ts"` everywhere, but mostly for
   simple annotations like `ref<string | null>(null)` and prop types. If types are new,
-  keep [TypeScript Mastery Path](https://sigilipelli.github.io/typescript-mastery-path/)
+  keep [TypeScript Mastery Path](https://learnmasterypath.com/typescript-mastery-path/)
   open alongside.
 - **HTML and CSS basics** — forms, labels, selectors, flexbox.
 - A terminal and an editor. VS Code with the official **Vue (Official)** extension gives

@@ -10,7 +10,7 @@ write **generic components**, and what `vue-tsc` catches that `tsc` alone can't.
 shown are real `vue-tsc` output (vue-tsc 3.3.11, TypeScript 6.0).
 
 If TypeScript itself is new, the
-[TypeScript Mastery Path](https://sigilipelli.github.io/typescript-mastery-path/) covers
+[TypeScript Mastery Path](https://learnmasterypath.com/typescript-mastery-path/) covers
 generics, unions and utility types in depth.
 
 ## Why `vue-tsc` and not just `tsc`

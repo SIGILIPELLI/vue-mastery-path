@@ -37,9 +37,9 @@ things, and it gives you a decision table you'll use for the rest of your Vue ca
 You should be comfortable with everything in [Level 1](../level-1/index.md), especially
 `ref`/`computed`/`watch`, props and emits, and `v-model` on components. The projects use
 `async`/`await` and `fetch` throughout; the
-[JavaScript Mastery Path](https://sigilipelli.github.io/javascript-mastery-path/) covers
+[JavaScript Mastery Path](https://learnmasterypath.com/javascript-mastery-path/) covers
 promises if you need a refresher, and the
-[REST API Mastery Path](https://sigilipelli.github.io/rest-api-mastery-path/) explains the
+[REST API Mastery Path](https://learnmasterypath.com/rest-api-mastery-path/) explains the
 HTTP status codes and API design this level assumes.
 
 ## What was verified, and how
