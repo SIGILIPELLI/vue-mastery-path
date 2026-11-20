@@ -377,7 +377,7 @@ client-only placeholder, or pass the value from the server in state. For unavoid
 
 `renderToString` runs components through a **separate SSR compiler output**. For the server
 build, `@vitejs/plugin-vue` compiles templates to `ssrRender` functions that push strings into
-a buffer (`_push(`<h1>${_ssrInterpolate(product.name)}</h1>`)`) instead of creating vnodes —
+a buffer (`` _push(`<h1>${_ssrInterpolate(product.name)}</h1>`) ``) instead of creating vnodes —
 much faster, because there's no DOM to diff. Reactivity is effectively off on the server:
 effects aren't kept, watchers don't re-run, `onMounted` never fires. Each component's
 `setup` runs, `onServerPrefetch` promises are awaited, and the string is produced once.
