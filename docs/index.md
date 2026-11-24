@@ -1,6 +1,6 @@
 ---
 title: "Free Vue.js Course: Composition API, Pinia, Vue Router, Testing, SSR & Nuxt"
-description: "Free Vue 3 course: 40 lessons on the Composition API, reactivity internals, Vue Router, Pinia, testing, accessibility, SSR, Nuxt and production deployment."
+description: "Free Vue 3 course: 36 lessons and 4 projects on the Composition API, reactivity internals, Vue Router, Pinia, testing, accessibility, SSR, Nuxt and production deployment."
 ---
 
 # Vue.js Mastery Path
